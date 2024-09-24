@@ -1,0 +1,15 @@
+docker ps --all
+docker ps //ที่ทำงานอยู่
+docker run <image>
+docker run busybox ping google.com
+docker stop <Container ID>
+docker system prune//waring ชิบหายแน่นอนถ้าพิมพ์
+docker exec -it 21667d6e6776 bash
+docker run --name mynginx -d -p 3000:80 nginx
+docker images
+docker images rm hello-world
+
+mySQL 330/6
+443
+
+http://localhost:9000/
